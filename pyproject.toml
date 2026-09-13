@@ -1,0 +1,16 @@
+[project]
+name = "cas-case-study-agentic-ai-fm"
+version = "1.0.0"
+description = "Runnable environment for the CAS case study notebooks: From Exam Question to Autonomous Agent -- Teaching Agentic AI Through Financial Mathematics."
+requires-python = ">=3.10"
+dependencies = [
+    "agno[google,opentelemetry,sqlite]>=1.0.0",
+    "google-genai>=1.0.0",
+    "openinference-instrumentation-agno>=1.0.0",
+    "python-dotenv>=1.0.1",
+    "ipykernel>=6.29.0",
+    "jupyter>=1.0.0",
+]
+
+[tool.uv]
+package = false

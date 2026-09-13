@@ -1,0 +1,8 @@
+# Plain-pip fallback (use this only if you are not using uv -- see README.md).
+# pip install -r requirements.txt
+agno[google,opentelemetry,sqlite]>=1.0.0
+google-genai>=1.0.0
+openinference-instrumentation-agno>=1.0.0
+python-dotenv>=1.0.1
+ipykernel>=6.29.0
+jupyter>=1.0.0
